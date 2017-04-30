@@ -1,0 +1,10 @@
+草稿：
+链表：1-2-3-4-5-6-7-8-100-101-102-103
+                       |___________|
+算法：
+    while ((fast_node->next != NULL) && (fast_node->next->next != NULL) && (fast_node != slow_node)){
+        fast_node = fast_node->next->next;
+        slow_node = slow_node->next;
+执行状态：
+        fast_node       slow_node
+原始：     

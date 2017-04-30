@@ -1,0 +1,1 @@
+gcc graphic.c -o graphic.exe -g

@@ -1,0 +1,1 @@
+gcc priority_queue.c -o priority_queue.exe -g
